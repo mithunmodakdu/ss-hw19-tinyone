@@ -1,7 +1,7 @@
 /* common start */
 body{
     font-family: "PT Sans", sans-serif;
-    font-size: 16x;
+    font-size: 16px;
     font-weight: 400;
     color: #898989;
 }
@@ -81,8 +81,51 @@ header{
     transform: scale(0.8);
     color: white;
 }
-.s_img{}
-.s_img img{}
-
 
 /* slider end */
+
+
+
+/* feature start */
+.feature{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.c_title{}
+.c_h1{
+    margin-bottom: 15px;
+    font-size: 32x;
+    font-weight: 700;
+    color: #010101;
+}
+.c_p{
+    font-size: 20px;
+    color: #313841;
+    line-height: 28px;
+}
+.f_item{
+    margin-top: 70px;
+}
+.f_icon{}
+.f_icon i{
+    margin-top: 5px;
+    font-size: 50px;
+    color: #010101;
+    transition: .33s;
+}
+.f_icon i:hover{
+    transform: scale(.8);
+}
+.f_text{}
+.f_text h2{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #010101;
+}
+.f_text p{
+    letter-spacing: 1px;
+}
+
+
+/* feature end */

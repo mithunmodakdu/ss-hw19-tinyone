@@ -6,6 +6,7 @@ color----------------
 black #010101
 ash #898989
 yel #fcdb00
+    #313841
 
 media query-----------
 xxl  1440

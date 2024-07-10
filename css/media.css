@@ -45,6 +45,40 @@ header {
 /* slider end */
 
 
+/* feature start */
+.feature {
+   padding-top: 50px;
+   padding-bottom: 70px;
+}
+.c_h1 {
+   margin-bottom: 10px;
+   font-size: 25px;
+}
+.c_p {
+   font-size: 17px;
+   line-height: 25px;
+}
+.f_item {
+   margin-top: 30px;
+}
+.f_icon i {
+   margin-top: 0;
+   font-size: 35px;
+}
+.f_text {
+   margin-top: 10px;
+   text-align: center;
+}
+.f_text h2 {
+   margin-bottom: 0;
+   font-size: 20px;
+}
+.f_text p {
+   letter-spacing: 0;
+}
+/* feature end */
+
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -89,6 +123,33 @@ header {
 }
 /* slider end */
 
+ /* feature start */
+ .feature {
+   padding-top: 50px;
+   padding-bottom: 70px;
+}
+.f_item {
+   margin-top: 30px;
+}
+.f_icon i {
+   margin-top: 0;
+   font-size: 35px;
+}
+.f_text {
+   margin-top: 10px;
+   text-align: center;
+}
+.f_text h2 {
+   margin-bottom: 0;
+   font-size: 20px;
+}
+.f_text p {
+   letter-spacing: 0;
+}
+
+
+  /* feature end */
+
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -99,6 +160,16 @@ header {
     text-align: right;
  }
   /* header end */
+
+  /* feature start */
+  .feature {
+   padding-top: 80px;
+   padding-bottom: 100px;
+}
+.f_item {
+   margin-top: 50px;
+}
+  /* feature end */
 
 }
 
