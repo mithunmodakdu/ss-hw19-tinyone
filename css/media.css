@@ -1,5 +1,13 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+body {
+   padding-top: 89px;
+}
+
+.c_padding{
+   padding-top: 50px;
+   padding-bottom: 70px;
+}
 /* header start */ 
 header {
    padding: 10px 0;
@@ -46,10 +54,7 @@ header {
 
 
 /* feature start */
-.feature {
-   padding-top: 50px;
-   padding-bottom: 70px;
-}
+
 .c_h1 {
    margin-bottom: 10px;
    font-size: 25px;
@@ -78,11 +83,51 @@ header {
 }
 /* feature end */
 
+ /* contact start */
+ .c_form {
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.c_input {
+   height: 45px;
+   padding: 10px 10px;
+}
+.c_submit {
+   height: 45px;
+}
+.c_icon li {
+   margin-right: 25px !important;
+}
+.c_icon li i {
+   font-size: 35px;
+}
+  /* contact end */
+
+   /* footer start */
+footer{
+   padding-bottom: 70px;
+}
+.f_1{
+   text-align: center;
+   
+}
+
+.f_2{
+   margin-top: 40px;
+   text-align: center;
+}
+  /* footer end */
+
 
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
+
+.c_padding{
+   padding-top: 50px;
+   padding-bottom: 70px;
+}
 /* header start */
 .menu ul li a {
     font-size: 20px;
@@ -124,10 +169,7 @@ header {
 /* slider end */
 
  /* feature start */
- .feature {
-   padding-top: 50px;
-   padding-bottom: 70px;
-}
+
 .f_item {
    margin-top: 30px;
 }
@@ -146,14 +188,51 @@ header {
 .f_text p {
    letter-spacing: 0;
 }
-
-
   /* feature end */
+
+  /* contact start */
+.c_form {
+   margin-top: 35px;
+   margin-bottom: 40px;
+}
+.c_input {
+   height: 45px;
+   padding: 10px 10px;
+}
+.c_submit {
+   height: 45px;
+}
+.c_icon li {
+   margin-right: 25px !important;
+}
+.c_icon li i {
+   font-size: 40px;
+}
+  /* contact end */
+
+  /* footer start */
+footer{
+   padding-bottom: 70px;
+}
+.f_1{
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.f_2{
+   text-align: center;
+}
+  /* footer end */
 
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
+
+.c_padding{
+   padding-top: 80px;
+   padding-bottom: 100px;
+}
   /* header start */
   .menu ul li a {
     padding: 10px 0 0 !important;
@@ -162,14 +241,24 @@ header {
   /* header end */
 
   /* feature start */
-  .feature {
-   padding-top: 80px;
-   padding-bottom: 100px;
-}
+
 .f_item {
    margin-top: 50px;
 }
   /* feature end */
+
+  /* contact start */
+  .c_form {
+   margin-top: 65px;
+   margin-bottom: 70px;
+}
+  /* contact end */
+
+  /* footer start */
+  footer {
+   padding-bottom: 100px;
+}
+  /* footer end */
 
 }
 
